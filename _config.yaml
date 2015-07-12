@@ -1,2 +1,5 @@
 name: Henry Roe
 markdown: kramdown
+
+
+permalink: /blog/:year_:month_:day/:title
