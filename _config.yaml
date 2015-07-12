@@ -1,5 +1,6 @@
 name: Henry Roe
 markdown: kramdown
+highlighter: pygments
 
 
 permalink: /blog/:year_:month_:day/:title
