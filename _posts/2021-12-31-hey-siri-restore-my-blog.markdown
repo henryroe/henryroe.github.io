@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hey Siri, Restore My Blog"
-date:   2021-12-31 12:20:00 -0300
+date:   2021-12-31 12:25:00 -0300
 categories: jekyll behindscenes 
 ---
 I've been on-again-mostly-off-again with writing blog posts. It's always been entirely for myself, mostly to record information somewhere that I will find it again when I need it. This is the latest version of that, having been in an off-again mode for five years or so. With some of the things I want to work on and think about in the coming year I'd like to try on-again.
