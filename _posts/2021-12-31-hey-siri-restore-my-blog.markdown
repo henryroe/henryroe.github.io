@@ -62,5 +62,23 @@ Now launch and check the site locally (can be in terminal window):
 Now, can open [http://127.0.0.1:4000/](http://127.0.0.1:4000/
 ) in a local browser window! And, once have committed back into GitHub, can view the same on GitHub at [https://henryroe.github.io](https://henryroe.github.io).
 
+# Add a theme
 
+Next I want to add the [Minimal](https://pages-themes.github.io/minimal/) Github-supported Jekyll theme. 
+
+In `_config.yml` modify the following lines:
+
+    # Build settings
+    theme: minima
+    plugins:
+      - jekyll-feed
+
+to:
+
+    # Build settings
+    # theme: minima
+    remote_theme: pages-themes/minimal@v0.2.0
+    plugins:
+      - jekyll-feed
+      - jekyll-remote-theme
 
