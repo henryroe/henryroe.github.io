@@ -33,17 +33,14 @@
         {% endif %}
       {% endfor %}
 
-      {% if jekyll.environment == "development" %}
-        <a class="sidebar-nav-item" href="{{ site.github.repo }}/zipball/BlackDoc-Local">Download</a>
-      {% else %}
-        <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/master.zip">Download</a>
-      {% endif %}
-
+<!--
       <hr>
       <a class="sidebar-nav-item" target="_blank" href="{{ site.github.repo }}">GitHub project</a>
       <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+-->
+
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <p><font size="1">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</font></p>
   </div>
 </div>
