@@ -3,16 +3,18 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hi there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+# Dr. Henry Roe
 
-## About BlackDoc Theme
+I am Deputy Director of [Gemini Observatory](https://gemini.edu), a program of [NSF's NOIRLab](https://noirlab.edu). When I have time for research, my interests include Pluto, Titan, and other objects in the outer solar system. I have fun with high-resolution spectroscopy, especially in the near- and mid-infrared, complicated molecules, and making telescopes of all sizes do cool things.
 
-Some relevant information about this project:
+You can follow me on twitter as [@_hroe](http://twitter.com/_hroe).
 
-* Built for [Jekyll](http://jekyllrb.com){:target="_blank"}
-* Theme based on [Poole](http://getpoole.com){:target="_blank"}, the Jekyll butler, and the [Hyde](http://hyde.getpoole.com){:target="_blank"} theme
-* Ideal for sites requiring master-detail layout such as documentation, cheatsheets, lyrics, notes, etc.
-* Need a beautiful color scheme for black background? Then you will love BlackDoc theme.
+# About this site
 
+TODO: Add links to several old posts
+* hey siri, relaunch site  
+* why here
+* color choices
+* just say no to analytics
+* some new post about set-up with BlackDoc
+ 

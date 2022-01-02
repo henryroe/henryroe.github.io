@@ -10,6 +10,21 @@ ______ _            _   ______
  * Designed, built, and released under MIT license by @karloespiritu.
  */
 
+/* hroe color scheme:
+
+black:  #000000
+lighter brown:   #A45209
+darker brown:    #533419
+duller orange:   #F07818
+brighter orange:  #FF6600
+
+grey body text (original):   #848482
+little brighter grey:   #A4A4A4
+
+green I liked was #1fa832
+
+*/
+
 /*
  * Contents
  *
@@ -32,8 +47,8 @@ html {
 }
 
 body {
-  color: #848482;
-  background-color: #000000;
+  color: #A4A4A4;   /* hroe note:  body text, had been #848482 */
+  background-color: #000000;  /* hroe note: body background */
 }
 
 h1,
@@ -65,7 +80,7 @@ a {
 }
 
 a:hover {
-  color: #caad00;
+  color: #A45209;  /* hroe note:  had been #caad00, green I liked was #1fa832 */
 }
 
 .btn {
@@ -187,8 +202,8 @@ tbody tr:nth-child(odd) th {
 
 .sidebar {
   text-align: center;
-  padding: 2rem 1rem;
-  color: rgba(255, 255, 255, .5);
+  padding: 1rem 0.5rem;  /* hroe note: originally was:   padding: 2rem 1rem; */
+  color: rgba(255,255,255,.55);  /* hroe note: this controls non-linking text in sidebar, originally was:  rgba(255,255,255,.5) */
   background-color: #000;
   overflow: auto;
 }
@@ -198,19 +213,22 @@ tbody tr:nth-child(odd) th {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem;
+/* hroe: in old hroe.me was as follows, not sure if were my edits or not:
+    width: 12rem; 
+*/
+    width: 18rem; 
     text-align: left;
   }
 }
 
 /* Sidebar links */
 .sidebar a {
-  color: #caad00;
+  color: #FF6600;  /* hroe note, had been #caad00  */
 }
 
 /* About section */
-.sidebar-about h1 {
-  color: #caad00;
+.sidebar-about h1 {  /* hroe note: this controls the title in the sidebar */
+  color: #FF6600;  /* hroe note:  had been #caad00 */
   margin-top: 0;
   font-family: 'Noto Serif', serif;
   font-size: 2.25rem;
@@ -260,6 +278,11 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .content {
+/* hroe: in old hroe.me was as follows, not sure if were my edits or not:
+    max-width: 50rem;
+    margin-left: 14rem;
+    margin-right: 2rem;
+*/
     max-width: 95%;
     margin-left: 18rem;
     margin-right: 0rem;
@@ -268,6 +291,10 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 64em) {
   .content {
+/* hroe: in old hroe.me was as follows, not sure if were my edits or not:
+    margin-left: 16rem;
+    margin-right: 4rem;
+*/
     margin-left: 18rem;
     margin-right: 0rem;
   }
@@ -284,7 +311,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  color: #caad00;
+  color: #A45209;   /* hroe note:  controls post title in a post page, had been #caad00 */
 }
 
 /*
@@ -385,14 +412,16 @@ a.sidebar-nav-item:focus {
 
 /* Brown */
 .theme-base-0f .sidebar {
-  background-color: #8f5536;
+  background-color: #533419;  /* hroe note: background of sidebar, had been brown #8f5536 */
 }
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
-  color: #8f5536;
+  color: #A45209;  /* hroe note:  highlight color for in main area, e.g. titles of posts etc, had been brown #8f5536 */
 }
 
 /* Thin Scrollbar */
+/* hroe commented out following big scroll bar block to let scrollbar be handled natively */
+/*
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -414,3 +443,4 @@ a.sidebar-nav-item:focus {
 ::-webkit-scrollbar-thumb:hover {
   background: #7d7d7d;
 }
+*/ 

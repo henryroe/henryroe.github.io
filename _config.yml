@@ -4,19 +4,19 @@ highlighter:      rouge
 remote_theme:     Robert-Zacchigna/BlackDoc
 
 # Setup
-title:            BlackDoc
-tagline:          Black Theme for Jekyll
-description:      "A two-column black theme with a scrolling sidebar. Ideal for sites requiring a master-detail layout, e.g. documentation, cheatsheets, lyrics, notes..."
-url:              https://github.com/Robert-Zacchigna/BlackDoc
+title:            hroe.me
+tagline:          Henry Roe's spot on these interwebs
+description:      "Henry Roe's spot on these interwebs"
+url:              https://henryroe.github.io
 baseurl:          "/"
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"
                   # This will apply to all pages in your Jekyll site.
 
-timezone: America/Chicago
+timezone: America/Santiago
 
 author:
-  name:           Robert Zacchigna
-  url:            https://github.com/Robert-Zacchigna/
+  name:           Henry Roe
+  url:            https://github.com/henryroe/
 
 paginate:         5
 # paginate_path:    '/page:num'
@@ -31,5 +31,5 @@ plugins:
 version:            2.0.0
 
 github:
-  repo:             https://github.com/Robert-Zacchigna/BlackDoc
+  repo:             https://github.com/henryroe/henryroe.github.io
 

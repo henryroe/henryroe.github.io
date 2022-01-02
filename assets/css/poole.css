@@ -186,6 +186,7 @@ pre code {
   border-radius: 4px;
 }
 .highlight pre {
+  background-color: #333333;  /* hroe added this line to control background of code blocks */
   margin-bottom: 0;
 }
 
@@ -203,6 +204,7 @@ pre code {
 .gist .gist-file .gist-data {
   font-size: .8rem !important;
   line-height: 1.4;
+  max-height: 500px;   /* hroe added 2015-09-18 */  
 }
 .gist code {
   padding: 0;
