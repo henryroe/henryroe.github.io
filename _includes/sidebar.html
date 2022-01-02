@@ -17,7 +17,7 @@
       {% if jekyll.environment == "development" %}
         <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
       {% else %}
-        <a class="sidebar-nav-item{% if {{ post.url | remove_first: '/'}} == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/{{ post.url | remove_first: '/'}}">Home</a>
+        <a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}" href="{{ site.baseurl }}/{{ post.url | remove_first: '/'}}">Home</a>
       {% endif %}
 
       {% comment %}
