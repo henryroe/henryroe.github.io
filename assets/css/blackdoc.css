@@ -213,10 +213,7 @@ tbody tr:nth-child(odd) th {
     top: 0;
     left: 0;
     bottom: 0;
-/* hroe: in old hroe.me was as follows, not sure if were my edits or not:
-    width: 12rem; 
-*/
-    width: 18rem; 
+    width: 12rem; /* hroe note: had been   width: 18rem; */
     text-align: left;
   }
 }
@@ -278,25 +275,25 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .content {
-/* hroe: in old hroe.me was as follows, not sure if were my edits or not:
     max-width: 50rem;
     margin-left: 14rem;
     margin-right: 2rem;
-*/
+/* hroe note: had been:
     max-width: 95%;
     margin-left: 18rem;
     margin-right: 0rem;
+*/
   }
 }
 
 @media (min-width: 64em) {
   .content {
-/* hroe: in old hroe.me was as follows, not sure if were my edits or not:
     margin-left: 16rem;
     margin-right: 4rem;
-*/
+/* hroe note: had been:
     margin-left: 18rem;
     margin-right: 0rem;
+*/
   }
 }
 
