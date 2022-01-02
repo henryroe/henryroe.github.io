@@ -6,7 +6,7 @@ remote_theme:     Robert-Zacchigna/BlackDoc
 # Setup
 title:            hroe.me
 tagline:          Henry Roe's spot on these interwebs
-description:      "Henry Roe's spot on these interwebs"
+description:      "A spot for<br>Henry Roe's<br>professional, personal, and other interests"
 url:              https://henryroe.github.io
 baseurl:          "/"
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"
