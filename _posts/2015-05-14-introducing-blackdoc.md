@@ -3,8 +3,6 @@ layout: post
 title: Introducing BlackDoc
 ---
 
-Hi there. 
-
 {{ jekyll.environment }}
 
 BlackDoc is a two-column [Jekyll](http://jekyllrb.com){:target="_blank"} theme that's ideal for websites that require a 
