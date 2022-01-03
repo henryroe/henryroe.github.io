@@ -78,3 +78,4 @@ I pulled down copies of both of those forked versions and hacked them together i
 
 I then migrated over a bunch of the style edits I'd made to the old Heroku-served blog. The end result is what you see here. (And can see the source files of [here](https://github.com/henryroe/henryroe.github.io).)
 
+And, being Markdown based, it was incredibly easy to migrate over the posts from my earlier heroku-based version of this blog. 
