@@ -20,7 +20,20 @@ title: Home
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content }}
+    {{ post.excerpt }}
+    
+    {% if post.content != post.excerpt %}
+      {% if jekyll.environment == "development" %}
+        <a href="{{ site.baseurl }}{{ post.url | remove_first: '/'}}">
+          Read more.
+        </a>
+      {% else %}
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          Read more.
+        </a>
+      {% endif %}
+    {% endif %}
+    
   </div>
   {% endfor %}
 </div>

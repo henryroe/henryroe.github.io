@@ -6,6 +6,8 @@ categories: jekyll behindscenes
 ---
 I've been on-again-mostly-off-again with writing blog posts. It's always been entirely for myself, mostly to record information somewhere that I will find it again when I need it. This is the latest version of that, having been in an off-again mode for five years or so. With some of the things I want to work on and think about in the coming year I'd like to try on-again.
 
+<!--more-->
+
 In terms of behind-the-scenes I want something simple and markdown based. And, ultimately I want to migrate my earlier posts from two earlier blogs here to consolidate into a single place. (Originally I used SquareSpace and blogged at [henrysmac](henrysmac.org). Later I had a markdown based blog hosted on heroku, but the system that was running on was deprecated also and I need to find a new solution.) Based on some notes I wrote to myself 5+ years ago and some quick googling, I'm going to try a [Github](https://github.com) based [jekyll](https://jekyllrb.com) blog.
 
 The following is how I made things work on a 2021 14" MacBook Pro M1 Max running MacOS 12.1 Monterey.
