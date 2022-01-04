@@ -5,9 +5,11 @@
       <img src="/assets/images/me40.jpg" width="50%" height="50%" alt="me" title="Me, on a good day.">
       </center>
       <h1>
-        <a href="{{ site.baseurl }}">
-          {{ site.title }}
-        </a>
+        {% if jekyll.environment == "development" %}
+          <a href="{{ site.baseurl }}">{{ site.title }}</a>
+        {% else %}
+          <a href="{{ site.baseurl }}/{{ post.url | remove_first: '/'}}">{{ site.title }}</a>
+        {% endif %}
       </h1>
       <p class="lead">{{ site.description }}</p>
     </div>
